@@ -1,5 +1,5 @@
 import { Fragment } from "react"
-import Tiptap from "../../../src/Tiptap"
+import Tiptap from "./Pages/Tiptap"
 
 const App = () => {
   return (
