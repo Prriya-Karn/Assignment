@@ -12,6 +12,8 @@ import Superscript from "@tiptap/extension-superscript";
 import HighlightExtension from "./CustomExtension/HighlightExtension";
 import BoldExtension from "./CustomExtension/BoldExtension";
 import ItalicExtension from "./CustomExtension/ItalicExtension";
+import ImageExtension from "./CustomExtension/ImageExtension";
+
 
 const extensions = [
     StarterKit,
@@ -28,7 +30,8 @@ const extensions = [
     Color,
     Underline,
     Subscript,
-    Superscript
+    Superscript,
+    ImageExtension
 ];
 
 
@@ -62,10 +65,17 @@ const Tiptap = () => {
                 <button
                 onClick={() => editor.chain().focus().toggleItalic().run()}
                 className="">
-                Highlight
+                Italic
             </button>
 
-              
+           <button
+           onClick={() => {
+            console.log('Inserting image...');
+            editor.chain().focus().insertImage('https://picsum.photos/50', 'Image alt text', 'Image title').run();
+         }}>
+   Insert Image
+</button>
+
 
                 {/*Custom Extension Highlight Text Button */}
                 <button
@@ -82,19 +92,7 @@ const Tiptap = () => {
                 </button>
 
 
-                <button
-                    onClick={() => editor.chain().focus().toggleItalic().run()}
-                    disabled={
-                        !editor.can()
-                            .chain()
-                            .focus()
-                            .toggleItalic()
-                            .run()
-                    }
-                    className={editor.isActive('italic') ? 'is-active' : ''}
-                >
-                    Italic
-                </button>
+                
                 <button
                     onClick={() => editor.chain().focus().toggleStrike().run()}
                     disabled={
@@ -257,12 +255,7 @@ const Tiptap = () => {
                 >
                     Redo
                 </button>
-                <button
 
-                    onClick={() => editor.chain().focus().Color('#958DF1').run()}
-                    className={editor.isActive('textStyle', { color: '#958DF1' }) ? 'is-active' : ''}>
-                    Purple
-                </button>
 
             </div>
             {/*-----------------create the editor------------------------------------ */}
@@ -270,7 +263,7 @@ const Tiptap = () => {
 
 
                 <EditorContent editor={editor}
-                    className="editorinside p-5" />
+                    className="editorinside" />
 
 
             </div>

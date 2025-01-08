@@ -55,12 +55,16 @@ h1 {
  .italic-text{
   font-style: italic;
  }
-  
+ .editor img {
+  @apply max-w-full h-auto;
+}
+
   body{
     background-color: black;
   }
   .ribbon{
-    @apply bg-editorColor ml-12 mr-12 mt-5 text-white rounded-lg p-5 pb-0;
+    @apply bg-editorColor ml-12 mr-12 mt-5 text-white rounded-lg  pb-0
+    flex flex-wrap space-x-2 sm:space-x-4 p-5;
   }
 
   .ribbon button{
@@ -72,15 +76,15 @@ h1 {
   }
 
   .editor{
-    @apply  h-screen pt-12 pb-14;
+    @apply w-full h-screen pt-12 pb-14 sm:text-lg md:text-xl;
   }
 
-  .editorinside{
-   @apply bg-editorColor
-    ml-96 mr-96 h-full p-16 rounded-lg text-white;
-    border: 1px solid grey;
-    color: inherit !important;
-  }
+ .editorinside{
+  @apply bg-editorColor ml-4 mr-4 h-full p-4 rounded-lg text-white border border-gray-400 
+  sm:ml-8 sm:mr-8 sm:p-8 
+  md:ml-12 md:mr-12 md:p-10 
+  lg:ml-16 lg:mr-16 lg:p-12;
+ }
  
 
   .editorinside .ProseMirror-focused {
