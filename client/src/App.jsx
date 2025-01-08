@@ -1,10 +1,10 @@
-import { Fragment } from "react"
-import Tiptap from "./Pages/Tiptap"
+import { Fragment } from "react";
+import Tiptap from "./Pages/Tiptap";
 
 const App = () => {
   return (
     <Fragment>
-      <Tiptap />
+      <Tiptap/>
     </Fragment>
   )
 }

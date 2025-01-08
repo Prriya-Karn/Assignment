@@ -43,6 +43,19 @@ h1 {
     @apply list-decimal pl-5; 
   }
 
+
+  .highlighted-text {
+    background-color: yellow; 
+  }
+
+  .bold-text{
+    @apply font-bold;
+  }
+
+ .italic-text{
+  font-style: italic;
+ }
+  
   body{
     background-color: black;
   }
