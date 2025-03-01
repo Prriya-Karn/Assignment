@@ -1,10 +1,10 @@
 import { Fragment } from "react";
-import Tiptap from "./Pages/Tiptap";
-
+import Home from "./Pages/Home";
+import './index.css'
 const App = () => {
   return (
     <Fragment>
-      <Tiptap/>
+    <Home/>
     </Fragment>
   )
 }

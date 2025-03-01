@@ -10,18 +10,6 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@tiptap/core": "^2.11.0",
-    "@tiptap/extension-color": "^2.11.0",
-    "@tiptap/extension-highlight": "^2.11.0",
-    "@tiptap/extension-placeholder": "^2.11.0",
-    "@tiptap/extension-subscript": "^2.11.0",
-    "@tiptap/extension-superscript": "^2.11.0",
-    "@tiptap/extension-text-align": "^2.11.0",
-    "@tiptap/extension-text-style": "^2.11.0",
-    "@tiptap/extension-underline": "^2.11.0",
-    "@tiptap/pm": "^2.11.0",
-    "@tiptap/react": "^2.11.0",
-    "@tiptap/starter-kit": "^2.11.0",
     "autoprefixer": "^10.4.20",
     "postcss": "^8.4.49",
     "prop-types": "^15.8.1",
