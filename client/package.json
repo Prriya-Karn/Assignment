@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "autoprefixer": "^10.4.20",
+    "framer-motion": "^12.4.7",
     "postcss": "^8.4.49",
     "prop-types": "^15.8.1",
     "prosemirror-model": "^1.24.1",
