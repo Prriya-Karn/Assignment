@@ -20,8 +20,8 @@ const Section6 = () => {
    xl:gap-32 lg:mt-48 mt-20 2xl:ml-44 2xl:mr-44 xl:ml-7 xl:mr-7 lg:ml-10 lg:mr-10 sm:ml-20 sm:mr-20 ml-5 mr-5
      lg:gap-32 gap-10'>
     <div className='left-section6 flex sm:flex-row flex-col justify-center items-center sm:w-1/2 xl:gap-10 lg:ml-16 md:ml-40 sm:ml-32 gap-3 xl:ml-0 order-2 lg:order-1'>
-    <img className='h-80' src='../../public/Images/section6-img1.png'/>
-    <img className='h-80' src='../../public/Images/section6-img2.png'/>
+    <img className='h-80' src='/Images/section6-img1.png'/>
+    <img className='h-80' src='/Images/section6-img2.png'/>
     </div>
 
     <div className='right-section6  lg:w-1/2 font-sans text-white order-1 lg:order-2'>

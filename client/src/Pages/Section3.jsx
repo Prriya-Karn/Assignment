@@ -32,8 +32,8 @@ will share.
 
    <div className='section3-right-img  xl:w-1/2 lg:w-2/3 order-1 lg:order-2'>
    <div className='flex flex-col sm:flex-row ml-5 mr-5 gap-6'>
-   <img className='' src='../../public/Images/img1-section3.png'/>
-   <img className='' src='../../public/Images/img2-section3.png'/>
+   <img className='' src='/Images/img1-section3.png'/>
+   <img className='' src='/Images/img2-section3.png'/>
    </div>
    <p className='sm:w-96 w-5/6 ml-5 mt-8 font-semibold text-xl'>
    Engaging and professionally-made

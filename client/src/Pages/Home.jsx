@@ -20,7 +20,7 @@ const Home = () => {
 
                     
                     <div className="head flex flex-col sm:flex-row justify-center items-center w-full sm:w-auto mx-auto md:-ml-32 text-center sm:text-left">
-                    <img src="../../public/Images/logo.png" className="w-14 h-12 sm:w-16 sm:h-14" />
+                    <img src="/Images/logo.png" className="w-14 h-12 sm:w-16 sm:h-14" />
                     <p className="text-sm sm:text-base font-semibold text-white mt-2 sm:mt-0 sm:ml-2">
                       Sriva Premium Co.
                     </p>
@@ -43,7 +43,7 @@ const Home = () => {
 
                    
                     <div className='hero-img  w-full md:w-auto'>
-                        <img className='w-full h-auto' src='../../public/Images/heroimage.png' />
+                        <img className='w-full h-auto' src='/Images/heroimage.png' />
                     </div>
                 </div>
 

@@ -12,14 +12,14 @@ const Section2 = () => {
     relationships with your employees, customers or even prospective clients.</p>
    </div>
    <div className='flex sm:flex-row flex-col left-img sm:gap-6 gap-5 ml-5 mr-5 sm:ml-10'>
-   <img className='sm:h-80' src='../../public/Images/img1-section2.png'/>
-   <img className='sm:h-80' src='../../public/Images/img2-section2.png'/>
+   <img className='sm:h-80' src='/Images/img1-section2.png'/>
+   <img className='sm:h-80' src='/Images/img2-section2.png'/>
    </div>
    </div>
 
 
    <div className='right-content xl:w-2/3 lg:w-2/3 sm:w-full ml-5 mr-5 sm:ml-20 lg:ml-0'>
-   <img className='' src='../../public/Images/img3-section2.png'/>
+   <img className='' src='/Images/img3-section2.png'/>
    <div className='right-sub-content  mt-8 font-sans text-white'>
    <p className='lg:w-96 sm:w-2/3'>Make your newsletter a beautiful representation of
    your company by inserting your logo, infusing it with

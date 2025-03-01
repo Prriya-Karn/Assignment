@@ -12,7 +12,7 @@ import  { Fragment } from 'react'
    </div>
 
    <div className='section5-right-img mt-10 sm:mt-0'>
-   <img src='../../public/Images/section5-img.png'/>
+   <img src='/Images/section5-img.png'/>
    </div>
     </div>
     </Fragment>
